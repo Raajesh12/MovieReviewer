@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        android:defaultValue="@string/preference_color_value_blue"
+        android:key="@string/colorPreference"
+        android:title="Color"
+        android:entries="@array/preference_colors_options"
+        android:entryValues="@array/preference_colors_values">
+
+    </ListPreference>
+
+    <ListPreference
+        android:defaultValue="@string/preference_text_size_value_small"
+        android:key="@string/fontSizePreference"
+        android:title="Font Size"
+        android:entries="@array/preference_font_size_options"
+        android:entryValues="@array/preference_font_size_values">
+
+    </ListPreference>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/notificationsPreference"
+        android:title="Enable Notifications?"
+        android:summaryOff="Notifications Disabled"
+        android:summaryOn="Notifications Enabled">
+
+    </CheckBoxPreference>
+
+</PreferenceScreen>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MovieRatingsApp</string>
+    <string name="colorPreference">color_Preference</string>
+    <string name="fontSizePreference">font_Size_Preference</string>
+    <string name="notificationsPreference">notifications_Preference</string>
+    <string name="sharedPreferencesFile">shared_preferences_file_movies_settings</string>
+
+
+    <string name="preference_color_option_blue">Blue</string>
+    <string name="preference_color_option_yellow">Yellow</string>
+    <string name="preference_color_option_green">Green</string>
+
+    <string name="preference_color_value_blue">blue</string>
+    <string name="preference_color_value_yellow">yellow</string>
+    <string name="preference_color_value_green">green</string>
+
+    <string name="preference_text_size_option_small">Small</string>
+    <string name="preference_text_size_option_medium">Medium</string>
+    <string name="preference_text_size_option_large">Large</string>
+
+    <string name="preference_text_size_value_small">small</string>
+    <string name="preference_text_size_value_medium">medium</string>
+    <string name="preference_text_size_value_large">large</string>
+
+
+
+
+</resources>

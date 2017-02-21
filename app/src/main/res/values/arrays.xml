@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="preference_colors_options">
+        <item>@string/preference_color_option_blue</item>
+        <item>@string/preference_color_option_yellow</item>
+        <item>@string/preference_color_option_green</item>
+    </string-array>
+
+    <string-array name="preference_colors_values">
+        <item>@string/preference_color_value_blue</item>
+        <item>@string/preference_color_value_yellow</item>
+        <item>@string/preference_color_value_green</item>
+    </string-array>>
+
+    <string-array name="preference_font_size_options">
+        <item>@string/preference_text_size_option_small</item>
+        <item>@string/preference_text_size_option_medium</item>
+        <item>@string/preference_text_size_option_large</item>
+
+    </string-array>
+
+    <string-array name="preference_font_size_values">
+        <item>@string/preference_text_size_value_small</item>
+        <item>@string/preference_text_size_value_medium</item>
+        <item>@string/preference_text_size_value_large</item>
+    </string-array>
+
+</resources>

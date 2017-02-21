@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:paddingRight="30dp"
+    android:paddingLeft="24dp"
+    android:paddingTop="4dp">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/smiley_face_image"
+        android:src="@mipmap/green_smiley_face"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/movie_title"
+        app:layout_constraintLeft_toRightOf="@+id/smiley_face_image"
+        app:layout_constraintRight_toLeftOf="@+id/rating"
+        app:layout_constraintTop_toTopOf="@+id/smiley_face_image"
+        android:gravity="left"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="6dp"
+        android:textSize="20sp"
+        tools:text="Rush Hour"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/movie_genre"
+        app:layout_constraintTop_toBottomOf="@+id/movie_title"
+        app:layout_constraintLeft_toLeftOf="@+id/movie_title"
+        android:layout_marginTop="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        tools:text="Comedy"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rating"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_marginRight="16dp"
+        android:textSize="35sp"
+        tools:text="5"
+        android:textColor="@android:color/black"
+        android:layout_marginEnd="16dp" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        app:layout_constraintTop_toBottomOf="@+id/movie_genre"
+        app:layout_constraintLeft_toLeftOf="@+id/smiley_face_image"
+        app:layout_constraintRight_toRightOf="@+id/rating"
+        tools:text="Great movie about Jackie Chan and Chris Tucker comedically partnering up in LA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="14sp"
+        android:layout_marginTop="20dp" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="4dp"
+        android:background="#757575"
+        app:layout_constraintTop_toBottomOf="@+id/description"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="10dp"/>
+
+</android.support.constraint.ConstraintLayout>
